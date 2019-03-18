@@ -1,0 +1,37 @@
+{
+    "name": "chat-app",
+    "version": "1.0.0",
+    "engines": {
+        "node": "11.7.0"
+    },
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rajkumarshahu/chat-app.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rajkumarshahu/chat-app/issues"
+    },
+    "homepage": "https://github.com/rajkumarshahu/chat-app#readme",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "express": "^4.16.4",
+        "koa": "^2.7.0",
+        "koa-body": "^4.1.0",
+        "koa-body-parser": "^1.1.2",
+        "koa-bodyparser": "^4.2.1",
+        "koa-router": "^7.4.0",
+        "koa-send": "^5.0.0",
+        "koa-static": "^5.0.0",
+        "mongoose": "^5.4.17",
+        "socket.io": "^2.2.0"
+    },
+    "devDependencies": {}
+}
